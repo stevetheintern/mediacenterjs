@@ -11,7 +11,7 @@
         "Jonathan Bailey",
         "Stefan Hoffman <stefhoff@go4more.de>",
         "Ionică Bizău <bizauionica@gmail.com>",
-	"Steve Bledsoe didn't really contribute anything but he did fork this code and make some tweaks =)"
+        "Steve Bledsoe didn't really contribute anything but he did fork this code and make some tweaks =)"
     ],
     "repository": {
         "type": "git",
@@ -20,8 +20,8 @@
     "scripts": {
         "start": "node server.js"
     },
-    "engines":{
-	"node": "8.9.3"
+    "engines": {
+        "node": "8.9.3"
     },
     "bin": {
         "mediacenterjs": "./server.js"
@@ -75,7 +75,7 @@
     ],
     "license": [
         {
-            "type":"GPL-3.0"
+            "type": "GPL-3.0"
         }
     ]
 }

@@ -57,7 +57,6 @@ if(config.language === ""){
 } else {
     language = config.language;
 }
-
 /*Create database*/
 if(isThere.sync('./lib/database/') === false){
     fs.mkdirSync('./lib/database/');
