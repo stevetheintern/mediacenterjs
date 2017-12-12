@@ -10,7 +10,8 @@
         "Terry Moore II <terry.moore.ii@gmail.com>",
         "Jonathan Bailey",
         "Stefan Hoffman <stefhoff@go4more.de>",
-        "Ionică Bizău <bizauionica@gmail.com>"
+        "Ionică Bizău <bizauionica@gmail.com>",
+	"Steve Bledsoe didn't really contribute anything but he did fork this code and make some tweaks =)"
     ],
     "repository": {
         "type": "git",
@@ -18,6 +19,9 @@
     },
     "scripts": {
         "start": "node server.js"
+    },
+    "engines":{
+	"node": "8.9.3"
     },
     "bin": {
         "mediacenterjs": "./server.js"
@@ -61,7 +65,7 @@
         "winston": "^0.8.3"
     },
     "bugs": {
-        "url": "https://github.com/jansmolders86/mediacenterjs/issues"
+        "url": "https://github.com/stevetheintern/mediacenterjs/issues"
     },
     "main": "index.js",
     "devDependencies": {},
